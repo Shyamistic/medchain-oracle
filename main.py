@@ -22,6 +22,7 @@ def health_check():
 
 @app.post("/verify")
 async def verify_drug(file: UploadFile = File(...)):
+    # Mock ML inference - replace with real model later
     confidence = random.uniform(0.55, 0.95)
     is_authentic = confidence > 0.5
     
