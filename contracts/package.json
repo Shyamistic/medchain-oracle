@@ -1,0 +1,10 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.22.15",
+    "typescript": "^5.9.3"
+  }
+}
