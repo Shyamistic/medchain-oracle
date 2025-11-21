@@ -1,9 +1,6 @@
-fastapi==0.104.1
+﻿fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
-torch==2.9.1
-torchvision==0.24.1
-Pillow==9.5.0
-numpy==1.26.2
-httpx==0.25.1
-pydantic==2.5.0
+torch==2.1.0
+torchvision==0.16.0
+Pillow==10.1.0
